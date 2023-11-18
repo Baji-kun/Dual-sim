@@ -1,4 +1,3 @@
-![image](https://github.com/Sahil0976/MultiForce-Sub/assets/97865856/c9cd46d1-e48d-4276-9b39-ac8e3d08ffc4)
 
 <b>A Telegram Special File Sharing Bot Who Made A Link Of File And You Can Access File Through Link.</b>
 
