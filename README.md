@@ -1,17 +1,15 @@
-# Nozel's-file-sharing-Modified
-
 ![image](https://github.com/Sahil0976/MultiForce-Sub/assets/97865856/c9cd46d1-e48d-4276-9b39-ac8e3d08ffc4)
 
 <b>A Telegram Special File Sharing Bot Who Made A Link Of File And You Can Access File Through Link.</b>
 
 ##
 
-**Credit - [@CodeXbotz](https://t.me/CodeXBotz)** [@Anime_X_Hunters](https://t.me/Anime_X_Hunters)**
+**Credit - [@Chowdhury_Siam](https://t.me/Chowdhury_Siam)** [@Anime_Kun_Channel](https://t.me/Anime_Kun_Channel)**
 
 
 
 ### Features
-- Multi Force Sub Modified Of CodeXBotz Created By - [@Its_Tagtaglia_Childe](https://t.me/Its_Tartaglia_Childe)**
+- Multi Force Sub Modified By - [@Chowdhury_Siam](https://t.me/Chowdhury_Siam)**
 - Fully customisable.
 - Customisable welcome & Forcesub messages.
 - More than one Posts in One Link.
