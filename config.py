@@ -1,8 +1,3 @@
-#(©)CodeXBotz
-#Recoded By @Its_Tartaglia_Childe
-
-
-
 import os
 import logging
 from logging.handlers import RotatingFileHandler
