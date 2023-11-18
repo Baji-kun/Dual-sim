@@ -1,5 +1,3 @@
-#(©)Codexbotz
-#@iryme
 
 
 
