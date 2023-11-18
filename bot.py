@@ -79,7 +79,7 @@ class Bot(Client):
             sys.exit()
 
         self.set_parse_mode(ParseMode.HTML)
-        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/Animes_X_Hunters")
+        self.LOGGER(__name__).info(f"Bot Running..!\n\nCreated by \nhttps://t.me/Chowdhury_Siam")
         self.LOGGER(__name__).info(f""" \n\n       
 ░█████╗░███╗░░██╗██╗███╗░░░███╗███████╗
 ██╔══██╗████╗░██║██║████╗░████║██╔════╝
