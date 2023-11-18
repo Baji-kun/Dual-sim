@@ -1,6 +1,3 @@
-#(©)Codexbotz
-#rymme
-
 
 
 
