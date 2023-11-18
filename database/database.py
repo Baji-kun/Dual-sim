@@ -1,7 +1,3 @@
-#(©)CodeXBotz
-#recoded by its_tartaglia_Childe
-
-
 import pymongo, os
 from config import DB_URI, DB_NAME
 
