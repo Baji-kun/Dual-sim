@@ -1,4 +1,3 @@
-#Recoded By @Its_Tartaglia_Childe
 
 
 
@@ -87,11 +86,11 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
     [
-        InlineKeyboardButton("𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋", url="https://t.me/Its_Tartaglia_Childe"),
+        InlineKeyboardButton(" Bot Owner", url="https://t.me/Chowdhury_Siam"),
     ],
     [
-                    InlineKeyboardButton("⚠️ About Me Dude ⚠️", callback_data = "about"),
-                    InlineKeyboardButton("✌️ OFF ✌️", callback_data = "close")
+                    InlineKeyboardButton("About Me", callback_data = "about"),
+                    InlineKeyboardButton("Close", callback_data = "close")
         
     ]
             ]
@@ -125,8 +124,8 @@ REPLY_ERROR = "<code>Use this command as a reply to any telegram message without
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton(text="💞 ᴍᴀɪɴ ᴄʜᴀɴᴇʟ 💞", url=client.invitelink),
-            InlineKeyboardButton(text="💞 ꜱᴇᴄᴏɴᴅ ᴄʜᴀɴᴇʟ 💞", url=client.invitelink2),
+            InlineKeyboardButton(text="Anime Kun Channel", url=client.invitelink),
+            InlineKeyboardButton(text="Anime Kun Chat Group", url=client.invitelink2),
         ],
         [
             InlineKeyboardButton(text="💞 ɢʀᴏᴜᴘ ᴄʜᴀᴛ 💞", url=client.invitelink3),
@@ -174,7 +173,7 @@ async def send_text(client: Bot, message: Message):
         deleted = 0
         unsuccessful = 0
         
-        pls_wait = await message.reply("<i>Broadcast Proccessing Till Wait Dude... </i>")
+        pls_wait = await message.reply("<i>Broadcast in Proccessing... </i>")
         for chat_id in query:
             try:
                 await broadcast_msg.copy(chat_id)
@@ -194,7 +193,7 @@ async def send_text(client: Bot, message: Message):
                 pass
             total += 1
         
-        status = f"""<b><u>ʙʀᴏᴀᴅᴄᴀꜱᴛ...</u>
+        status = f"""<b><u>Broadcast....</u>
 
 Total Users: <code>{total}</code>
 Successful: <code>{successful}</code>
