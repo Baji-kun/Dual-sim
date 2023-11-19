@@ -53,7 +53,7 @@ PROTECT_CONTENT = True if os.environ.get('PROTECT_CONTENT', "False") == "True" e
 #Set true if you want Disable your Channel Posts Share button
 DISABLE_CHANNEL_BUTTON = os.environ.get("DISABLE_CHANNEL_BUTTON", None) == 'True'
 
-BOT_STATS_TEXT = "<b>BOT UPTIME</b>\n{uptime}"
+BOT_STATS_TEXT = "<b>I'm Alive For</b>\n{uptime}"
 USER_REPLY_TEXT = "please Don't Message Me, I only Work for My Master @Chowdhury_Siam..!"
 
 ADMINS.append(OWNER_ID)
