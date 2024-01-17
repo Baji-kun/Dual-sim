@@ -86,7 +86,7 @@ async def start_command(client: Client, message: Message):
         reply_markup = InlineKeyboardMarkup(
             [
     [
-        InlineKeyboardButton(" Bot Owner", url="https://t.me/Chowdhury_Siam"),
+        InlineKeyboardButton(" Bot Owner", url="https://t.me/Itz_Zeno"),
     ],
     [
                     InlineKeyboardButton("About Me", callback_data = "about"),
@@ -124,8 +124,8 @@ REPLY_ERROR = "<code>Use this command as a reply to any telegram message without
 async def not_joined(client: Client, message: Message):
     buttons = [
         [
-            InlineKeyboardButton(text="Anime Kun Channel", url=client.invitelink),
-            InlineKeyboardButton(text="Anime Kun Chat Group", url=client.invitelink2),   
+            InlineKeyboardButton(text="Anime Wide", url=client.invitelink),
+            InlineKeyboardButton(text="Series & Movie Request Gc", url=client.invitelink2),   
         ]
     ]
     try:
