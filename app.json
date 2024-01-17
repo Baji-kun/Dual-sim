@@ -11,7 +11,7 @@
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": ""
+      "value": "6459667954:AAEZyPWZJA-bKTSb4JbXzQDX2UOVJmkorE0"
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
@@ -19,11 +19,11 @@
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
-      "value": ""
+      "value": "21983955"
     },
     "DATABASE_URL": {
       "description": "Paste your mongo db url",
-      "value": "url"
+      "value": "mongodb+srv://luffyx7819:R0xYGEYRui9e2ScP@cluster1.lyqtfz7.mongodb.net/?retryWrites=true&w=majority"
     },
     "DATABASE_NAME":{
       "description": "Enter your DATABASE_NAME ",
