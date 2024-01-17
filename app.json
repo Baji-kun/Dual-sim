@@ -43,15 +43,7 @@
      },
     "FORCESUB_CHANNEL2":{
       "description": "id of the second channel, if you want enable force sub feature else put 0",
-      "value": "0"   
-    },
-     "FORCESUB_CHANNEL3":{
-      "description": "id of the first channel, if you want enable force sub feature else put 0",
-      "value": "0"
-     },
-     "FORCESUB_CHANNEL4":{
-      "description": "id of the second channel, if you want enable force sub feature else put 0",
-      "value": "0"   
+      "value": "0"      
     },
     "START_MSG": {
       "description": "Optional: start message of bot, use HTML parsemode format",
