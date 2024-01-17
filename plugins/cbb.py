@@ -9,7 +9,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>┏━━━━━•◦●◉✿ ❟❛❟ ✿◉●◦•━━━━━━┓\n┃ Developer : <a href='https://t.me/Itz_Zeno'>Zeno</a>\n┃ Creator : <a href='https://t.me/Itz_Zeno'> This Person </a>\n┃ Language : <code>Python3</code>\n┃ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n┃ Source Code : <a href=https://t.me/Netflix_Dual>Movie Channel</a>\n┃ Main Channel : <a href=https://t.me/Anime_Wide>​Anime Wide</a>\n┃Series & Movies Request Gc: <a href=https://t.me/Series_and_Movies_Request_Group>Series & Movies Gc</a>\n┗━━━━━•◦●◉✿ ❟❛❟ ✿◉●◦•━━━━━━┛</b>",
+            text = f"<b>┏━━━━━•◦●◉✿ ❟❛❟ ✿◉●◦•━━━━━━┓\n┃ Developer : <a href='https://t.me/Itz_Zeno'>Zeno</a>\n┃ Creator : <a href='https://t.me/Itz_Zeno'> This Person </a>\n┃ Language : <code>Python3</code>\n┃ Library : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {__version__}</a>\n┃ Source Code : <a href=https://t.me/Netflix_Dual>Movie Channel</a>\n┃ Main Channel : <a href=https://t.me/Anime_Wide>​Anime Wide</a>\n┃Request Gc: <a href=https://t.me/Series_and_Movies_Request_Group>Series & Movies Gc</a>\n┗━━━━━•◦●◉✿ ❟❛❟ ✿◉●◦•━━━━━━┛</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
