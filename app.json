@@ -11,11 +11,11 @@
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": "6459667954:AAEZyPWZJA-bKTSb4JbXzQDX2UOVJmkorE0"
+      "value": ""
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "1250450587"
+      "value": "5957500906"
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
@@ -23,31 +23,31 @@
     },
     "DATABASE_URL": {
       "description": "Paste your mongo db url",
-      "value": "mongodb+srv://luffyx7819:R0xYGEYRui9e2ScP@cluster1.lyqtfz7.mongodb.net/?retryWrites=true&w=majority"
+      "value": "mongodb+srv://bajikun710:8zU61kKtCFuMmmor@zeno.yft7des.mongodb.net/?retryWrites=true&w=majority"
     },
     "DATABASE_NAME":{
       "description": "Enter your DATABASE_NAME ",
-      "value": "filesharexbot"
+      "value": "baji"
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
-      "value": ""
+      "value": "edc3c906b06c2dd3dc6ee4c2573fb3f1"
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-100"
+      "value": "-1001941559447"
     },
     "FORCESUB_CHANNEL":{
       "description": "id of the first channel, if you want enable force sub feature else put 0",
-      "value": "0"
+      "value": "-1001883084286"
      },
     "FORCESUB_CHANNEL2":{
       "description": "id of the second channel, if you want enable force sub feature else put 0",
-      "value": "0"      
+      "value": "-1001969037404"      
     },
     "START_MSG": {
       "description": "Optional: start message of bot, use HTML parsemode format",
-      "value": "𝐇𝐢 𝐃𝐮𝐝𝐞.. {first}\n\n𝐈 𝐚𝐦 𝐚 𝐟𝐢𝐥𝐞 𝐬𝐭𝐨𝐫𝐞 𝐛𝐨𝐭\n𝐘𝐨𝐮 𝐜𝐚𝐧 𝐚𝐜𝐜𝐞𝐬𝐬 𝐟𝐢𝐥𝐞𝐬 𝐭𝐡𝐫𝐨𝐮𝐠𝐡 𝐚 𝐬𝐩𝐞𝐜𝐢𝐟𝐢𝐜 𝐥𝐢𝐧𝐤..!"
+      "value": "Hi {first}\n\nThanks For Using Me ❣️..!"
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Optional: Force Sub message of bot, use HTML parsemode format",
@@ -55,13 +55,13 @@
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
-      "value": "",
+      "value": "5957500906",
       "required": false
     },
     "PROTECT_CONTENT": {
       "description": "Protect contents doesn't forward else False",
       "value": "False",
-      "required": false
+      "required": "True"
     }
   },
   "buildpacks": [
