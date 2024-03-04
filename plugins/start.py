@@ -82,7 +82,7 @@ async def start_command(client: Client, message: Message):
             except:
                 pass
         await message.reply_text("Files will be deleted in 10 minutes.\nForward to saved messages before downloading")
-        await asyncio.sleep(60)
+        await asyncio.sleep(600)
 
         for snt_msg in snt_msgs:
             try:
