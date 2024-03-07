@@ -17,23 +17,6 @@
       "description": "An integer of consisting of your owner ID",
       "value": "1250450587"
     },
-    "PROTECT_CONTENT": {
-      "description": "Protect contents from getting forwarded",
-      "value": "False",
-      "required": false
-    }
-} "buildpacks": [
-    {
-      "url": "heroku/python"
-    }
-  ],
-  "formation": {
-    "worker": {
-      "quantity": 1,
-      "size": "eco"
-    }
-  }
-
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
       "value": ""
@@ -61,10 +44,10 @@
     "FORCE_SUB_CHANNEL2":{
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
       "value": "0"
-    }
+    },
     "START_MESSAGE": {
       "description": "Optional: start message of bot, use HTML parsemode format",
-      "value": "<b>Hello {first}\n\nI am a file store bot Powered by @Netflix_Dual</b>"
+      "value": "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link."
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Optional: Force Sub message of bot, use HTML parsemode format",
@@ -74,3 +57,22 @@
       "description": "A space separated list of user_ids of Admins, they can only create links",
       "value": "",
       "required": false
+    },
+    "PROTECT_CONTENT": {
+      "description": "Protect contents from getting forwarded",
+      "value": "False",
+      "required": false
+    }
+  },
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "formation": {
+    "worker": {
+      "quantity": 1,
+      "size": "eco"
+    }
+  }
+}
