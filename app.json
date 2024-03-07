@@ -61,24 +61,8 @@
     "FORCE_SUB_CHANNEL2":{
       "description": "id of the channel or group, if you want enable force sub feature else put 0",
       "value": "0"
-    },
-    "TG_BOT_WORKERS":{
-      "description": "Tg Bot Workers",
-      "value": "4"
-    },
-     "AUTO_DEL":{
-      "description": "Auto Delete",
-      "value": "True"
-    },
-     "DEL_TIMER":{
-      "description": "Auto Delete Message Timer",
-      "value": "10"
-    },
-     "DEL_MSG":{
-      "description": "Auto Delete Message",
-      "value": "File will be Auto Deleted in 10 minutes, Forward to Saved Messages Now..."
-    },
-     "START_MESSAGE": {
+    }
+    "START_MESSAGE": {
       "description": "Optional: start message of bot, use HTML parsemode format",
       "value": "<b>Hello {first}\n\nI am a file store bot Powered by @Netflix_Dual</b>"
     },
