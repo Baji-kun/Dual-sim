@@ -1,4 +1,4 @@
-rom datetime import datetime, timedelta
+from datetime import datetime, timedelta
 
 def convert_time(duration_seconds: int) -> str:
     periods = [
