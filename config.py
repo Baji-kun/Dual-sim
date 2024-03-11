@@ -65,7 +65,7 @@ USER_REPLY_TEXT = "🚫 Please Avoid Direct Messages. I'm Here merely for file s
 
 # Auto delete settings
 AUTO_DEL = os.environ.get("AUTO_DEL", "True")
-DEL_TIMER = int(os.environ.get("DEL_TIMER", "600"))
+DEL_TIMER = int(os.environ.get("DEL_TIMER", "60"))
 DEL_MSG = "File will be Auto Deleted in 10 minutes, Forward to Saved Messages Now !!!"
 
 ADMINS.append(OWNER_ID)
