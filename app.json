@@ -11,7 +11,7 @@
   "env": {
     "TG_BOT_TOKEN": {
       "description": "Your Bot token, Get it from @Botfather",
-      "value": ""
+      "value": "5806133294:AAGDhiI6euD3rQHziieUKpEbhHKxSKuzc0A"
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
@@ -19,11 +19,11 @@
     },
     "APP_ID":{
       "description": "your app id, take it from my.telegram.org",
-      "value": ""
+      "value": "21983955"
     },
     "DATABASE_URL": {
       "description": "Paste your mongo db url",
-      "value": "url"
+      "value": "mongodb+srv://luffyx7819:R0xYGEYRui9e2ScP@cluster1.lyqtfz7.mongodb.net/?retryWrites=true&w=majority"
     },
     "DATABASE_NAME":{
       "description": "Enter your DATABASE_NAME ",
@@ -31,35 +31,43 @@
     },
     "API_HASH":{
       "description": "your api hash, take it from my.telegram.org",
-      "value": ""
+      "value": "edc3c906b06c2dd3dc6ee4c2573fb3f1"
     },
     "CHANNEL_ID":{
       "description": "make a channel (database channel), then make the bot as admin in channel, and it's id",
-      "value": "-100"
+      "value": "-1001941559447"
     },
     "FORCE_SUB_CHANNEL":{
-      "description": "id of the channel or group, if you want enable force sub feature else put 0",
-      "value": "0"
-    },
+      "description": "id of the first channel, if you want enable force sub feature else put 0",
+      "value": "-1002082857847"
+     },
     "FORCE_SUB_CHANNEL2":{
-      "description": "id of the channel or group, if you want enable force sub feature else put 0",
-      "value": "0"
+      "description": "id of the second channel, if you want enable force sub feature else put 0",
+      "value": "-1001987801732"  
+      },
+    "FORCE_SUB_CHANNEL3":{
+      "description": "id of your group, if you want enable force sub feature else put 0",
+      "value": "-1001962288910"
     },
-    "START_MESSAGE": {
+    "FORCE_SUB_CHANNEL4":{
+      "description": "id of your group, if you want enable force sub feature else put 0",
+      "value": "-1001818542830" 
+    },
+    "START_MSG": {
       "description": "Optional: start message of bot, use HTML parsemode format",
-      "value": "Hello {first}\n\nI can store private files in Specified Channel and other users can access it from special link."
+      "value": "𝐇𝐢 𝐃𝐮𝐝𝐞.. {first}\n\n𝐈 𝐚𝐦 𝐚 𝐟𝐢𝐥𝐞 𝐬𝐭𝐨𝐫𝐞 𝐛𝐨𝐭\n𝐘𝐨𝐮 𝐜𝐚𝐧 𝐚𝐜𝐜𝐞𝐬𝐬 𝐟𝐢𝐥𝐞𝐬 𝐭𝐡𝐫𝐨𝐮𝐠𝐡 𝐚 𝐬𝐩𝐞𝐜𝐢𝐟𝐢𝐜 𝐥𝐢𝐧𝐤..!"
     },
     "FORCE_SUB_MESSAGE": {
       "description": "Optional: Force Sub message of bot, use HTML parsemode format",
-      "value": "Hello {first}\n\n<b>You need to join in my Channel/Group to use me\n\nKindly Please join Channel</b>"
+      "value": "𝐒𝐨𝐫𝐫𝐲 𝐒𝐢𝐫/𝐌𝐚𝐦 𝐲𝐨𝐮 𝐡𝐚𝐯𝐞 𝐣𝐨𝐢𝐧 𝐦𝐲 𝐜𝐡𝐚𝐧𝐧𝐞𝐥𝐬 𝐟𝐢𝐫𝐬𝐭 𝐭𝐨 𝐚𝐜𝐜𝐞𝐬𝐬 𝐟𝐢𝐥𝐞𝐬..\n\n𝐒𝐨 𝐩𝐥𝐞𝐚𝐬𝐞 𝐣𝐨𝐢𝐧 𝐦𝐲 𝐜𝐡𝐚𝐧𝐧𝐞𝐥𝐬 𝐟𝐢𝐫𝐬𝐭 𝐚𝐧𝐝 𝐭𝐫𝐲 𝐚𝐠𝐚𝐢𝐧....!"
     },
     "ADMINS": {
       "description": "A space separated list of user_ids of Admins, they can only create links",
-      "value": "",
+      "value": "5957500906",
       "required": false
     },
     "PROTECT_CONTENT": {
-      "description": "Protect contents from getting forwarded",
+      "description": "Protect contents doesn't forward else False",
       "value": "False",
       "required": false
     }
