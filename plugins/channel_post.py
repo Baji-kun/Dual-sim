@@ -1,3 +1,5 @@
+#(©)Codexbotz
+
 import asyncio
 from pyrogram import filters, Client
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
@@ -6,14 +8,9 @@ from pyrogram.errors import FloodWait
 from bot import Bot
 from config import ADMINS, CHANNEL_ID, DISABLE_CHANNEL_BUTTON
 from helper_func import encode
-from database.database import is_admin
 
-@Bot.on_message(filters.private & ~filters.command(['start', 'users', 'broadcast', 'restart', 'total', 'clear', 'batch', 'genlink', 'stats']))
+@Bot.on_message(filters.private & filters.user(ADMINS) & ~filters.command(['start','users','starmt','fsub','broadcast','batch','user','genlink','broadcasts','stats']))
 async def channel_post(client: Client, message: Message):
-    user_id = message.from_user.id
-    is_user_admin = await is_admin(user_id)
-    if not is_user_admin and user_id not in ADMINS:        
-        return
     reply_text = await message.reply_text("Please Wait...!", quote = True)
     try:
         post_message = await message.copy(chat_id = client.db_channel.id, disable_notification=True)
